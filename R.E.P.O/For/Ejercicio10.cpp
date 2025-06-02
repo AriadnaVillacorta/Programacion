@@ -12,7 +12,7 @@ int main() {
     for (int i = 1; i <= N; i++) {
         cout << a << " ";  // imprime el término actual
 
-        int siguiente = a + b;  // calcula el siguiente término con la suma de los terminos
+        int siguiente = a + b;  // calcula el siguiente término con la suma de variables
         a = b;                 
         b = siguiente;
     }

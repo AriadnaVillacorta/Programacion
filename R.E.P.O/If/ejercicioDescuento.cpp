@@ -11,7 +11,7 @@ if (amount > 100){
     total = amount - 0.1;
     cout << "A 10% discount was applied"<<endl;
 } else { 
-    total= amount;
+    total = amount;
     cout << "The discount cannot be applied since its amount is less than $100. " <<endl;
    cout <<" Your total to pay is $ " << total <<endl;
 }

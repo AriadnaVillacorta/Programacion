@@ -17,6 +17,6 @@ int main() {
         b = siguiente;
     }
 
-    cout << endl;
+    
     return 0;
 }
